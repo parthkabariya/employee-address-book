@@ -1,0 +1,105 @@
+body {
+    background-color: #14b8a6;
+}
+.page-title{
+    color: white;
+    text-align: center;
+}
+
+.add-new-btn{
+    display: flex;
+    justify-content: center;
+}
+.add-new-btn h4{
+    padding: 10px;
+    background-color: #2dd4bf;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.add-new-btn h4:hover{
+    background-color: #0d9488;
+}
+
+.ant-pagination.ant-table-pagination-right {
+    list-style: none;
+    display: inline-flex;
+    gap: 2px;
+}
+
+.table-section {
+    text-align: center;
+    cursor: pointer;
+}
+
+.formElement {
+    display: flex;
+    justify-content: center;
+}
+
+.ant-table-wrapper {
+    width: fit-content;
+}
+
+.employee-table-col {
+    display: flex;
+    justify-content: center;
+}
+
+.table-cols {
+    padding:5px;
+}
+
+.searchbox {
+    margin-bottom: 50px;
+}
+
+.ant-tooltip-content{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.add-modal {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    background-color: #0b577ab2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-modal-content {
+    width: 50%;
+    padding: 100px 20px;
+    background-color: #27978e;
+    border-radius: 2%;
+}
+
+.toaster-wrapper {
+    position: absolute;
+    height: auto;
+    width: 20%;
+    top:10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #059668;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    z-index: 1000;
+}
+
+.fade-out{
+    opacity: 0;
+    height: 0;
+    transition: all 250ms linear;
+}
+
+.flex-parent {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
